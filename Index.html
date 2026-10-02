@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apresentação - Felipe</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: darkblue;
+            color: #222;
+        }
+
+        .hero {
+            background: darkblue;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #bbb;
+        }
+
+        h2 {
+            color: #0875d1;
+            text-align: center;
+            border-bottom: 3px solid #00bfff;
+            padding-bottom: 10px;
+        }
+
+        .texto {
+            font-size: 18px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 1 1 250px;
+            background: #eef9ff;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #0875d1;
+        }
+
+        .card h3 {
+            color: #0875d1;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .galeria img {
+            width: 250px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #0875d1;
+        }
+
+        /* CAPA DO HARRY POTTER */
+
+        .livro img {
+            width: 250px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .destaque {
+            background: #18a77b;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .frase {
+            background: #0875d1;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* ÁREA DO STRAVA */
+
+        .strava-container {
+            margin: 30px auto;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 15px;
+            border: 2px solid #fc4c02;
+            text-align: center;
+        }
+
+        .strava-container h3 {
+            color: #fc4c02;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .strava-iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+            background: white;
+        }
+
+        footer {
+            background: #06447f;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            section {
+                margin: 15px 10px;
+                padding: 20px;
+            }
+
+            .galeria img {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            .livro img {
+                width: 100%;
+                max-width: 250px;
+                height: auto;
+            }
+
+            .strava-iframe {
+                height: 450px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="hero">
+
+        <h1>Apresentação Pessoal</h1>
+
+        <p>Olá! Meu nome é Felipe.</p>
+
+        <p>
+            Aqui você vai conhecer um pouco sobre mim,
+            meus sonhos, meus hobbies e meu futuro.
+        </p>
+
+    </header>
+
+
+    <!-- SOBRE MIM -->
+
+    <section>
+
+        <p>
+            Meu nome é Felipe.
+        </p>
+
+        <p>
+            Minha família é muito importante para mim.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992067.png">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992051.png">
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Minha motivação</h3>
+
+                <p>
+                    O que me motiva é estudar para ter
+                    um futuro melhor.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Minha frase</h3>
+
+                <p>
+                    Uma frase que combina comigo é:
+                    <strong>"Cheio de sonhos."</strong>
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Meus hobbies</h3>
+
+                <p>
+                    Gosto muito de tocar e pedalar.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992115.png">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992084.png">
+
+        </div>
+
+    </section>
+
+
+    <!-- MINHA ESSÊNCIA -->
+
+    <section>
+
+        <h2>Minha essência</h2>
+
+        <p class="texto">
+            Um momento que me deixou mais forte foi
+            perder alguns familiares.
+        </p>
+
+        <p class="texto">
+            A pessoa mais importante para mim é meu pai.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992098.jpg">
+
+        </div>
+
+        <p class="texto">
+            Tenho 15 anos, mas gostaria de ter 30 anos
+            ou mais, pois já teria realizado muitos sonhos.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Social</h3>
+
+                <p>
+                    Consigo conversar bem com as pessoas
+                    e fazer amizades.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Comunicação</h3>
+
+                <p>
+                    Gosto de ouvir as pessoas e falar
+                    sobre minhas ideias.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Habilidades</h3>
+
+                <p>
+                    Acho que faço bem duas coisas:
+                    tocar e pedalar.
+                </p>
+
+            </div>
+              <div class="strava-container">
+
+            <h3> Meu Strava</h3>
+
+            <p>
+                Aqui você pode acompanhar minhas atividades
+                de ciclismo.
+            </p>
+
+            <iframe
+            width="750"
+            height="500"
+             src="https://www.strava.com/?hl=pt-BR"
+              title=" STRAVA"
+             >
+            </iframe>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+   
+    <section>
+
+        <h2>Meus hobbies</h2>
+
+        <p class="texto">
+            Gosto muito de tocar e pedalar.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790357992132.png">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790359783503.jpg">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790359783508.jpg">
+
+        </div>
+
+
+        <div class="destaque">
+
+            Preciso melhorar uma coisa:
+            às vezes eu converso demais.
+
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+
+        <h2>Livro que gostei</h2>
+
+        <p class="texto">
+            Um livro que gostei foi Harry Potter.
+            Gosto dele porque tem muitas aventuras.
+        </p>
+
+        <div class="galeria livro">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\81u+ljPVifL.jpg">
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Minhas vitórias</h2>
+
+        <p class="texto">
+            Uma coisa de que tenho muito orgulho foi
+            entrar em uma orquestra e tocar violino.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790360198507.png">
+
+        </div>
+
+        <div class="destaque">
+
+            Aprendi que os momentos difíceis
+            podem nos deixar mais fortes.
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Pessoas importantes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>João Salles</h3>
+
+                <p>
+                    Meu melhor amigo é o João Salles.
+                    Ele também faz SENAI de manhã.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Guilherme</h3>
+
+                <p>
+                    Meu melhor amigo da sala é o Guilherme.
+                    Ele é legal e muito esforçado.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790358304904.jpg">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790358304899.png">
+
+        </div>
+
+        <div class="destaque">
+
+            Meu status de relacionamento é solteiro.
+
+        </div>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\images.jfif">
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <h2>Meu futuro</h2>
+
+        <p class="texto">
+            No futuro, quero ter uma família feliz,
+            ter saúde e viver bem.
+        </p>
+
+        <p class="texto">
+            No trabalho, quero ter um bom emprego,
+            ganhar bem e ter uma vida confortável.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\images (1).jfif">
+
+        </div>
+
+        <div class="card">
+
+            <h3>Como quero ser lembrado</h3>
+
+            <p>
+                Quero ser lembrado como uma pessoa feliz,
+                amiga e de confiança.
+            </p>
+
+        </div>
+
+        <p class="texto">
+            Um momento importante no curso foi conseguir
+            o 3º lugar no projeto do Integra.
+        </p>
+
+        <div class="galeria">
+
+            <img src="c:\Users\EPM3NL307\Music\FELIPE\APRESENTAÇÕA_FELIPE_GODOI\1790358304912.jpg">
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <div class="frase">
+
+            Valorize o hoje, cuide de quem você ama
+            e não perca sua paz tentando agradar todo mundo.
+
+            <br><br>
+
+            A vida passa rápido.
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            Apresentação Pessoal do Felipe
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
